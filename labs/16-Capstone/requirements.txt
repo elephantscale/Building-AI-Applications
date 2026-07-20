@@ -1,0 +1,6 @@
+anthropic
+chromadb
+pypdf
+reportlab
+python-dotenv
+jupyter

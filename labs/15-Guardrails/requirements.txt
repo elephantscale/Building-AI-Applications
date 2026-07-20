@@ -1,0 +1,7 @@
+anthropic
+python-dotenv
+jupyter
+
+# OPTIONAL — only needed for the Amazon Bedrock Guardrails step (Step 3).
+# The lab runs end-to-end without it; the local guardrail is used as a fallback.
+# boto3
