@@ -1,0 +1,39 @@
+# --- LangChain core (0.3+) ---
+langchain>=0.3.26,<0.4
+langchain-community>=0.3.26,<0.4
+
+# --- Claude / Anthropic (generation LLM) ---
+anthropic>=0.40
+langchain-anthropic>=0.3,<1.0
+
+# --- OpenAI (embeddings only: text-embedding-3-small) ---
+langchain-openai>=0.2,<1.0
+openai>=1.0
+
+# --- Loaders + parsing deps ---
+pypdf>=4
+youtube-transcript-api>=1.0,<1.2
+requests>=2.31
+beautifulsoup4>=4.12
+lxml>=4.9
+
+# --- Vector store + tokenization + utils ---
+chromadb
+tiktoken>=0.7
+numpy>=1.26
+python-dotenv>=1.0
+
+# --- Chatbot UI (Lesson 6) ---
+panel
+param
+docarray>=0.40
+
+# --- Notebook runtime ---
+jupyter
+
+# Avoid pydantic v1 conflicts with modern LangChain
+pydantic>=2,<3
+
+# Misc (retained from original lab)
+pytube
+lark

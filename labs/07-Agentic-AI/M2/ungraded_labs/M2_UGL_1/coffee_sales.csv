@@ -1,0 +1,974 @@
+date,time,cash_type,card,price,coffee_name
+1/1/24,18:06,card,ANON-0009,3.0,Cortado
+1/1/24,07:05,card,ANON-0003,2.5,Americano
+1/1/24,07:35,card,ANON-0039,2.0,Espresso
+1/1/24,15:26,card,ANON-0045,2.0,Espresso
+1/2/24,19:55,card,ANON-0018,2.0,Espresso
+1/2/24,18:27,card,ANON-0011,3.5,Latte
+1/2/24,19:21,card,ANON-0014,3.8,Hot Chocolate
+1/2/24,12:54,card,ANON-0007,2.5,Americano
+1/3/24,08:59,card,ANON-0035,3.5,Latte
+1/3/24,20:40,card,ANON-0019,3.6,Flat White
+1/3/24,08:02,card,ANON-0046,3.8,Hot Chocolate
+1/3/24,20:14,card,ANON-0006,2.0,Espresso
+1/4/24,17:53,card,ANON-0030,2.5,Americano
+1/4/24,10:42,card,ANON-0023,3.8,Hot Chocolate
+1/4/24,17:04,card,ANON-0044,3.0,Cortado
+1/4/24,09:29,card,ANON-0016,3.2,Cappuccino
+1/4/24,18:35,card,ANON-0041,3.6,Flat White
+1/4/24,19:49,card,ANON-0054,2.0,Espresso
+1/5/24,10:58,card,ANON-0005,3.8,Hot Chocolate
+1/5/24,13:56,card,ANON-0032,3.8,Hot Chocolate
+1/5/24,10:47,card,ANON-0009,2.8,Americano with Milk
+1/5/24,21:37,card,ANON-0028,3.0,Cortado
+1/5/24,15:31,card,ANON-0009,3.6,Flat White
+1/5/24,08:09,card,ANON-0056,2.5,Americano
+1/5/24,16:04,card,ANON-0028,3.2,Cappuccino
+1/5/24,15:16,card,ANON-0030,3.6,Flat White
+1/6/24,17:56,card,ANON-0008,3.5,Latte
+1/6/24,08:18,card,ANON-0022,3.0,Cortado
+1/6/24,18:56,card,ANON-0001,3.6,Flat White
+1/6/24,19:11,cash,,3.0,Cortado
+1/6/24,11:53,cash,,2.5,Americano
+1/6/24,09:34,card,ANON-0049,2.0,Espresso
+1/7/24,07:07,card,ANON-0032,3.5,Latte
+1/7/24,20:51,cash,,3.8,Hot Chocolate
+1/7/24,21:36,card,ANON-0016,3.0,Cortado
+1/7/24,20:04,card,ANON-0032,2.5,Americano
+1/7/24,15:10,card,ANON-0031,3.2,Cappuccino
+1/7/24,13:13,card,ANON-0039,3.0,Cortado
+1/7/24,17:41,card,ANON-0026,2.0,Espresso
+1/7/24,14:07,card,ANON-0034,3.8,Hot Chocolate
+1/7/24,07:37,card,ANON-0022,2.0,Espresso
+1/8/24,08:45,card,ANON-0001,2.0,Espresso
+1/8/24,07:55,card,ANON-0058,3.5,Latte
+1/8/24,11:42,card,ANON-0016,3.8,Hot Chocolate
+1/9/24,19:26,card,ANON-0031,2.8,Americano with Milk
+1/9/24,13:22,card,ANON-0043,2.0,Espresso
+1/10/24,18:03,card,ANON-0056,3.6,Flat White
+1/10/24,12:51,card,ANON-0047,2.5,Americano
+1/10/24,15:28,card,ANON-0013,2.5,Americano
+1/10/24,14:15,card,ANON-0018,3.2,Cappuccino
+1/10/24,20:35,card,ANON-0056,2.5,Americano
+1/11/24,21:48,cash,,3.5,Latte
+1/11/24,14:13,card,ANON-0032,2.0,Espresso
+1/11/24,09:24,cash,,3.6,Flat White
+1/11/24,11:59,cash,,3.5,Latte
+1/11/24,18:50,card,ANON-0045,2.8,Americano with Milk
+1/11/24,10:03,card,ANON-0019,2.8,Americano with Milk
+1/11/24,07:37,card,ANON-0004,3.5,Latte
+1/12/24,15:10,card,ANON-0055,2.8,Americano with Milk
+1/12/24,08:54,cash,,3.5,Latte
+1/12/24,17:55,card,ANON-0005,3.2,Cappuccino
+1/12/24,16:15,card,ANON-0057,2.0,Espresso
+1/12/24,17:37,card,ANON-0027,3.5,Latte
+1/12/24,10:42,cash,,3.8,Hot Chocolate
+1/13/24,11:29,card,ANON-0042,3.6,Flat White
+1/13/24,21:04,cash,,3.8,Hot Chocolate
+1/13/24,08:04,card,ANON-0037,3.5,Latte
+1/13/24,21:22,card,ANON-0009,2.0,Espresso
+1/14/24,12:18,cash,,2.5,Americano
+1/14/24,18:19,card,ANON-0035,3.2,Cappuccino
+1/14/24,11:59,card,ANON-0036,3.5,Latte
+1/15/24,08:47,card,ANON-0057,3.2,Cappuccino
+1/15/24,10:45,card,ANON-0039,3.2,Cappuccino
+1/16/24,20:16,card,ANON-0041,3.8,Hot Chocolate
+1/17/24,20:17,card,ANON-0028,3.5,Latte
+1/17/24,09:40,card,ANON-0050,3.5,Latte
+1/17/24,15:45,card,ANON-0029,3.0,Cortado
+1/18/24,08:56,card,ANON-0008,3.6,Flat White
+1/18/24,12:37,card,ANON-0054,3.2,Cappuccino
+1/18/24,11:23,card,ANON-0003,3.2,Cappuccino
+1/18/24,10:43,cash,,3.5,Latte
+1/19/24,18:09,cash,,3.6,Flat White
+1/19/24,19:51,cash,,2.0,Espresso
+1/19/24,07:11,cash,,3.2,Cappuccino
+1/19/24,19:42,card,ANON-0027,3.8,Hot Chocolate
+1/19/24,18:06,card,ANON-0051,2.0,Espresso
+1/20/24,20:30,cash,,3.6,Flat White
+1/20/24,14:22,card,ANON-0059,2.0,Espresso
+1/20/24,10:14,card,ANON-0056,3.0,Cortado
+1/20/24,12:17,card,ANON-0026,3.5,Latte
+1/20/24,11:22,cash,,2.5,Americano
+1/21/24,08:56,cash,,3.8,Hot Chocolate
+1/21/24,07:06,card,ANON-0017,3.0,Cortado
+1/21/24,12:27,card,ANON-0051,3.6,Flat White
+1/22/24,10:16,card,ANON-0037,2.5,Americano
+1/22/24,15:59,card,ANON-0001,3.5,Latte
+1/22/24,17:58,card,ANON-0005,2.0,Espresso
+1/23/24,15:19,card,ANON-0020,2.5,Americano
+1/23/24,11:35,card,ANON-0045,3.6,Flat White
+1/23/24,13:43,card,ANON-0043,3.2,Cappuccino
+1/23/24,13:35,card,ANON-0020,3.2,Cappuccino
+1/24/24,13:50,card,ANON-0014,3.5,Latte
+1/24/24,17:13,card,ANON-0029,3.8,Hot Chocolate
+1/24/24,18:10,card,ANON-0051,2.8,Americano with Milk
+1/24/24,17:39,card,ANON-0043,2.5,Americano
+1/24/24,10:43,card,ANON-0049,3.8,Hot Chocolate
+1/24/24,09:01,card,ANON-0013,3.0,Cortado
+1/25/24,17:36,card,ANON-0057,2.5,Americano
+1/25/24,14:25,card,ANON-0025,2.0,Espresso
+1/25/24,07:57,card,ANON-0045,2.0,Espresso
+1/25/24,09:51,card,ANON-0015,2.5,Americano
+1/25/24,21:54,card,ANON-0016,2.8,Americano with Milk
+1/25/24,14:42,card,ANON-0052,2.5,Americano
+1/25/24,21:28,cash,,3.8,Hot Chocolate
+1/25/24,14:57,card,ANON-0036,3.6,Flat White
+1/25/24,14:16,card,ANON-0031,3.2,Cappuccino
+1/25/24,19:49,card,ANON-0018,2.0,Espresso
+1/26/24,14:04,card,ANON-0018,2.8,Americano with Milk
+1/26/24,12:57,card,ANON-0022,3.0,Cortado
+1/26/24,13:44,card,ANON-0015,2.5,Americano
+1/26/24,13:26,card,ANON-0005,3.2,Cappuccino
+1/26/24,07:13,card,ANON-0027,3.8,Hot Chocolate
+1/26/24,16:44,card,ANON-0050,3.6,Flat White
+1/27/24,11:48,card,ANON-0023,3.6,Flat White
+1/27/24,20:26,cash,,3.6,Flat White
+1/27/24,13:31,card,ANON-0018,2.0,Espresso
+1/27/24,17:51,card,ANON-0043,3.5,Latte
+1/27/24,14:58,card,ANON-0054,3.6,Flat White
+1/27/24,15:01,cash,,3.2,Cappuccino
+1/27/24,07:05,card,ANON-0043,3.6,Flat White
+1/27/24,09:03,card,ANON-0030,3.6,Flat White
+1/27/24,14:20,card,ANON-0014,3.0,Cortado
+1/28/24,11:48,card,ANON-0025,3.8,Hot Chocolate
+1/28/24,14:01,card,ANON-0006,3.6,Flat White
+1/28/24,12:14,cash,,3.5,Latte
+1/28/24,07:48,card,ANON-0042,2.5,Americano
+1/28/24,10:53,cash,,3.5,Latte
+1/29/24,16:13,card,ANON-0008,3.2,Cappuccino
+1/29/24,12:10,card,ANON-0050,2.8,Americano with Milk
+1/29/24,11:06,card,ANON-0011,2.5,Americano
+1/29/24,16:43,cash,,3.5,Latte
+1/29/24,10:04,card,ANON-0046,3.6,Flat White
+1/29/24,11:54,card,ANON-0050,2.0,Espresso
+1/30/24,19:02,card,ANON-0037,2.5,Americano
+1/30/24,12:04,card,ANON-0043,3.8,Hot Chocolate
+1/30/24,20:31,card,ANON-0027,3.8,Hot Chocolate
+1/30/24,17:57,card,ANON-0024,2.5,Americano
+1/30/24,09:46,card,ANON-0028,2.8,Americano with Milk
+1/31/24,18:37,card,ANON-0053,2.8,Americano with Milk
+1/31/24,20:59,card,ANON-0016,3.0,Cortado
+2/1/24,10:48,card,ANON-0029,2.5,Americano
+2/1/24,13:21,card,ANON-0043,2.8,Americano with Milk
+2/1/24,09:31,card,ANON-0021,3.5,Latte
+2/1/24,12:17,card,ANON-0017,2.0,Espresso
+2/2/24,10:05,card,ANON-0034,3.0,Cortado
+2/2/24,15:48,card,ANON-0032,2.0,Espresso
+2/2/24,18:31,card,ANON-0042,2.0,Espresso
+2/2/24,11:14,card,ANON-0006,2.8,Americano with Milk
+2/2/24,17:37,card,ANON-0020,3.6,Flat White
+2/2/24,12:27,card,ANON-0034,3.8,Hot Chocolate
+2/2/24,11:19,card,ANON-0030,3.8,Hot Chocolate
+2/3/24,10:20,card,ANON-0047,3.0,Cortado
+2/3/24,18:11,card,ANON-0049,2.5,Americano
+2/4/24,15:38,card,ANON-0049,3.0,Cortado
+2/4/24,20:12,cash,,3.0,Cortado
+2/4/24,11:00,card,ANON-0012,3.0,Cortado
+2/4/24,15:18,card,ANON-0004,3.2,Cappuccino
+2/4/24,14:06,card,ANON-0049,3.2,Cappuccino
+2/4/24,14:28,card,ANON-0031,3.5,Latte
+2/5/24,11:55,card,ANON-0004,3.8,Hot Chocolate
+2/5/24,13:31,card,ANON-0005,2.8,Americano with Milk
+2/5/24,07:09,card,ANON-0044,2.5,Americano
+2/5/24,08:15,card,ANON-0020,3.2,Cappuccino
+2/5/24,16:38,card,ANON-0027,2.5,Americano
+2/5/24,14:58,card,ANON-0025,2.0,Espresso
+2/5/24,13:19,card,ANON-0038,2.8,Americano with Milk
+2/5/24,08:48,card,ANON-0048,3.5,Latte
+2/6/24,15:04,card,ANON-0012,2.5,Americano
+2/6/24,18:38,card,ANON-0029,3.2,Cappuccino
+2/6/24,11:45,card,ANON-0015,2.8,Americano with Milk
+2/6/24,08:43,card,ANON-0030,3.0,Cortado
+2/6/24,19:50,cash,,2.0,Espresso
+2/7/24,10:41,card,ANON-0035,2.0,Espresso
+2/7/24,20:09,cash,,3.2,Cappuccino
+2/7/24,11:38,card,ANON-0051,2.5,Americano
+2/7/24,18:19,card,ANON-0030,3.0,Cortado
+2/7/24,15:34,cash,,3.6,Flat White
+2/7/24,07:56,card,ANON-0039,2.8,Americano with Milk
+2/8/24,17:53,card,ANON-0015,3.0,Cortado
+2/8/24,17:52,cash,,3.5,Latte
+2/8/24,19:11,card,ANON-0049,3.0,Cortado
+2/9/24,21:17,card,ANON-0029,2.8,Americano with Milk
+2/9/24,13:40,cash,,3.2,Cappuccino
+2/9/24,14:22,cash,,2.8,Americano with Milk
+2/9/24,08:54,card,ANON-0043,3.6,Flat White
+2/9/24,14:18,card,ANON-0045,3.2,Cappuccino
+2/10/24,11:20,card,ANON-0021,3.5,Latte
+2/10/24,13:55,cash,,2.5,Americano
+2/10/24,14:26,card,ANON-0035,3.5,Latte
+2/11/24,16:48,card,ANON-0024,3.5,Latte
+2/11/24,07:13,card,ANON-0049,2.8,Americano with Milk
+2/11/24,14:56,card,ANON-0019,3.0,Cortado
+2/12/24,15:00,card,ANON-0020,2.0,Espresso
+2/12/24,21:07,card,ANON-0054,3.6,Flat White
+2/12/24,17:53,cash,,2.8,Americano with Milk
+2/12/24,11:32,card,ANON-0046,3.2,Cappuccino
+2/13/24,14:15,card,ANON-0031,3.0,Cortado
+2/13/24,10:58,card,ANON-0025,2.8,Americano with Milk
+2/13/24,11:49,cash,,3.2,Cappuccino
+2/13/24,15:17,card,ANON-0051,3.6,Flat White
+2/14/24,17:31,card,ANON-0038,3.0,Cortado
+2/14/24,12:21,card,ANON-0031,3.2,Cappuccino
+2/14/24,20:12,card,ANON-0021,3.6,Flat White
+2/14/24,20:49,card,ANON-0015,2.0,Espresso
+2/14/24,14:45,card,ANON-0048,3.6,Flat White
+2/15/24,19:52,card,ANON-0043,3.6,Flat White
+2/15/24,09:32,card,ANON-0003,3.2,Cappuccino
+2/15/24,20:54,cash,,3.8,Hot Chocolate
+2/16/24,13:55,card,ANON-0010,2.8,Americano with Milk
+2/16/24,11:21,card,ANON-0051,3.2,Cappuccino
+2/17/24,12:54,card,ANON-0055,3.6,Flat White
+2/17/24,17:45,cash,,3.6,Flat White
+2/17/24,07:39,cash,,2.8,Americano with Milk
+2/17/24,21:18,card,ANON-0044,2.5,Americano
+2/17/24,08:48,card,ANON-0028,2.0,Espresso
+2/18/24,21:01,card,ANON-0020,2.8,Americano with Milk
+2/18/24,11:22,card,ANON-0004,3.5,Latte
+2/19/24,15:26,card,ANON-0016,3.8,Hot Chocolate
+2/20/24,20:24,card,ANON-0040,3.2,Cappuccino
+2/21/24,09:14,card,ANON-0038,2.0,Espresso
+2/21/24,11:42,card,ANON-0030,2.8,Americano with Milk
+2/21/24,14:57,cash,,3.5,Latte
+2/22/24,16:19,card,ANON-0023,2.5,Americano
+2/22/24,20:19,card,ANON-0030,3.6,Flat White
+2/22/24,20:30,cash,,2.0,Espresso
+2/22/24,12:36,card,ANON-0037,2.5,Americano
+2/23/24,11:01,cash,,3.0,Cortado
+2/23/24,20:43,card,ANON-0037,3.6,Flat White
+2/23/24,18:31,cash,,3.5,Latte
+2/23/24,16:51,card,ANON-0015,3.0,Cortado
+2/23/24,16:16,card,ANON-0013,3.8,Hot Chocolate
+2/23/24,17:41,card,ANON-0058,3.2,Cappuccino
+2/23/24,07:37,card,ANON-0029,3.5,Latte
+2/24/24,09:12,card,ANON-0027,3.0,Cortado
+2/24/24,12:33,card,ANON-0057,3.2,Cappuccino
+2/24/24,21:52,card,ANON-0017,3.0,Cortado
+2/24/24,11:47,cash,,2.8,Americano with Milk
+2/25/24,08:09,card,ANON-0030,3.8,Hot Chocolate
+2/25/24,18:43,cash,,2.0,Espresso
+2/25/24,19:35,cash,,3.6,Flat White
+2/25/24,07:16,card,ANON-0026,3.8,Hot Chocolate
+2/25/24,18:43,card,ANON-0044,2.5,Americano
+2/26/24,14:01,card,ANON-0015,3.8,Hot Chocolate
+2/26/24,10:41,cash,,3.8,Hot Chocolate
+2/26/24,21:44,card,ANON-0030,2.5,Americano
+2/26/24,09:02,card,ANON-0008,3.0,Cortado
+2/27/24,08:06,card,ANON-0032,3.5,Latte
+2/27/24,09:24,cash,,2.0,Espresso
+2/27/24,18:34,card,ANON-0048,2.8,Americano with Milk
+2/27/24,09:56,card,ANON-0047,3.6,Flat White
+2/27/24,14:39,card,ANON-0054,3.6,Flat White
+2/27/24,11:02,cash,,3.6,Flat White
+2/28/24,20:23,cash,,2.8,Americano with Milk
+2/28/24,12:34,cash,,2.5,Americano
+2/28/24,10:07,card,ANON-0018,3.8,Hot Chocolate
+2/28/24,17:40,card,ANON-0014,2.8,Americano with Milk
+2/29/24,10:08,card,ANON-0022,3.5,Latte
+2/29/24,15:13,card,ANON-0049,2.0,Espresso
+2/29/24,12:49,card,ANON-0015,2.0,Espresso
+3/1/24,09:34,card,ANON-0010,3.5,Latte
+3/1/24,17:55,card,ANON-0008,3.0,Cortado
+3/1/24,19:50,card,ANON-0023,3.5,Latte
+3/1/24,09:16,card,ANON-0002,2.0,Espresso
+3/1/24,15:07,card,ANON-0027,3.5,Latte
+3/1/24,12:32,card,ANON-0050,2.5,Americano
+3/1/24,16:02,card,ANON-0015,2.5,Americano
+3/2/24,07:30,card,ANON-0002,3.0,Cortado
+3/2/24,14:45,card,ANON-0007,3.6,Flat White
+3/2/24,12:38,card,ANON-0006,2.8,Americano with Milk
+3/2/24,16:40,card,ANON-0018,3.2,Cappuccino
+3/2/24,15:18,card,ANON-0039,3.8,Hot Chocolate
+3/2/24,08:50,card,ANON-0028,2.8,Americano with Milk
+3/2/24,17:56,cash,,2.5,Americano
+3/2/24,10:26,card,ANON-0057,2.0,Espresso
+3/3/24,13:20,card,ANON-0021,3.6,Flat White
+3/3/24,17:59,card,ANON-0010,3.0,Cortado
+3/3/24,08:05,card,ANON-0054,2.8,Americano with Milk
+3/4/24,12:51,card,ANON-0048,3.6,Flat White
+3/4/24,15:35,card,ANON-0038,3.2,Cappuccino
+3/4/24,12:55,card,ANON-0027,3.8,Hot Chocolate
+3/4/24,18:03,cash,,3.6,Flat White
+3/4/24,08:36,card,ANON-0023,3.0,Cortado
+3/4/24,10:54,card,ANON-0031,2.0,Espresso
+3/5/24,16:14,card,ANON-0018,3.8,Hot Chocolate
+3/5/24,20:39,card,ANON-0050,3.6,Flat White
+3/5/24,20:44,card,ANON-0043,3.5,Latte
+3/5/24,18:48,card,ANON-0018,3.0,Cortado
+3/5/24,12:00,cash,,3.0,Cortado
+3/5/24,16:42,cash,,3.2,Cappuccino
+3/5/24,17:01,card,ANON-0048,3.6,Flat White
+3/5/24,13:26,card,ANON-0014,2.5,Americano
+3/6/24,11:46,card,ANON-0024,2.8,Americano with Milk
+3/6/24,16:05,card,ANON-0037,3.8,Hot Chocolate
+3/6/24,16:03,card,ANON-0049,3.5,Latte
+3/6/24,13:31,card,ANON-0043,2.5,Americano
+3/6/24,19:32,card,ANON-0014,2.8,Americano with Milk
+3/6/24,11:43,card,ANON-0008,2.5,Americano
+3/6/24,07:14,card,ANON-0020,2.8,Americano with Milk
+3/7/24,19:08,card,ANON-0014,3.5,Latte
+3/7/24,07:31,card,ANON-0008,3.0,Cortado
+3/8/24,15:45,card,ANON-0025,3.6,Flat White
+3/8/24,17:51,card,ANON-0054,2.0,Espresso
+3/8/24,18:02,card,ANON-0056,3.8,Hot Chocolate
+3/8/24,08:55,card,ANON-0059,3.6,Flat White
+3/8/24,13:45,card,ANON-0037,3.8,Hot Chocolate
+3/8/24,07:20,card,ANON-0026,3.6,Flat White
+3/9/24,12:05,card,ANON-0059,2.8,Americano with Milk
+3/9/24,13:37,card,ANON-0016,3.6,Flat White
+3/9/24,20:19,card,ANON-0026,3.6,Flat White
+3/9/24,09:04,card,ANON-0050,3.8,Hot Chocolate
+3/9/24,21:49,card,ANON-0013,2.5,Americano
+3/9/24,17:52,card,ANON-0053,3.8,Hot Chocolate
+3/9/24,11:12,card,ANON-0010,3.2,Cappuccino
+3/10/24,19:41,card,ANON-0049,3.2,Cappuccino
+3/10/24,17:31,card,ANON-0050,2.5,Americano
+3/10/24,16:28,card,ANON-0049,2.8,Americano with Milk
+3/10/24,17:20,cash,,3.8,Hot Chocolate
+3/10/24,14:40,card,ANON-0031,3.2,Cappuccino
+3/10/24,07:22,card,ANON-0038,3.0,Cortado
+3/10/24,07:03,card,ANON-0029,2.5,Americano
+3/10/24,17:55,card,ANON-0005,3.8,Hot Chocolate
+3/10/24,13:29,card,ANON-0033,2.5,Americano
+3/11/24,16:41,card,ANON-0052,3.5,Latte
+3/12/24,15:09,card,ANON-0031,2.0,Espresso
+3/12/24,21:53,card,ANON-0052,3.5,Latte
+3/13/24,14:28,card,ANON-0046,3.2,Cappuccino
+3/13/24,11:24,card,ANON-0059,3.2,Cappuccino
+3/13/24,16:03,card,ANON-0044,3.6,Flat White
+3/14/24,15:43,card,ANON-0007,3.8,Hot Chocolate
+3/14/24,20:42,card,ANON-0047,3.6,Flat White
+3/14/24,17:09,card,ANON-0038,3.2,Cappuccino
+3/14/24,18:42,card,ANON-0042,3.8,Hot Chocolate
+3/14/24,08:19,card,ANON-0046,3.6,Flat White
+3/14/24,20:08,card,ANON-0022,3.6,Flat White
+3/14/24,15:23,card,ANON-0028,2.5,Americano
+3/15/24,14:12,card,ANON-0050,2.0,Espresso
+3/15/24,09:04,cash,,2.0,Espresso
+3/15/24,15:49,card,ANON-0007,3.0,Cortado
+3/15/24,19:39,card,ANON-0057,3.5,Latte
+3/15/24,09:11,card,ANON-0010,3.2,Cappuccino
+3/15/24,13:23,card,ANON-0003,3.2,Cappuccino
+3/16/24,16:18,cash,,2.0,Espresso
+3/16/24,11:51,card,ANON-0016,2.8,Americano with Milk
+3/16/24,10:23,cash,,2.8,Americano with Milk
+3/16/24,19:24,card,ANON-0019,2.8,Americano with Milk
+3/16/24,20:12,cash,,3.6,Flat White
+3/17/24,20:23,card,ANON-0031,3.0,Cortado
+3/17/24,20:07,card,ANON-0034,2.5,Americano
+3/17/24,11:28,card,ANON-0011,3.0,Cortado
+3/17/24,21:14,card,ANON-0006,3.2,Cappuccino
+3/17/24,21:01,cash,,2.8,Americano with Milk
+3/18/24,12:15,card,ANON-0033,3.6,Flat White
+3/18/24,12:14,cash,,3.6,Flat White
+3/18/24,20:45,card,ANON-0007,3.5,Latte
+3/19/24,20:30,card,ANON-0059,3.2,Cappuccino
+3/19/24,14:39,card,ANON-0031,3.2,Cappuccino
+3/20/24,07:16,cash,,3.5,Latte
+3/20/24,18:38,card,ANON-0036,2.0,Espresso
+3/21/24,07:15,card,ANON-0008,3.0,Cortado
+3/21/24,14:04,card,ANON-0040,3.6,Flat White
+3/21/24,16:34,card,ANON-0032,2.5,Americano
+3/21/24,10:45,card,ANON-0037,3.5,Latte
+3/22/24,16:22,card,ANON-0001,3.2,Cappuccino
+3/22/24,17:42,card,ANON-0012,2.0,Espresso
+3/22/24,08:33,card,ANON-0024,2.5,Americano
+3/22/24,07:40,card,ANON-0031,3.5,Latte
+3/23/24,12:15,card,ANON-0005,3.5,Latte
+3/23/24,19:21,card,ANON-0048,2.5,Americano
+3/23/24,12:52,card,ANON-0035,3.2,Cappuccino
+3/24/24,14:44,card,ANON-0044,3.2,Cappuccino
+3/24/24,09:04,card,ANON-0052,2.8,Americano with Milk
+3/24/24,07:50,card,ANON-0013,2.8,Americano with Milk
+3/24/24,12:59,cash,,2.0,Espresso
+3/24/24,15:30,card,ANON-0053,3.0,Cortado
+3/24/24,10:18,card,ANON-0042,3.0,Cortado
+3/25/24,12:27,card,ANON-0052,3.8,Hot Chocolate
+3/25/24,13:21,card,ANON-0058,3.6,Flat White
+3/26/24,12:59,card,ANON-0032,3.2,Cappuccino
+3/26/24,13:05,card,ANON-0047,3.0,Cortado
+3/26/24,09:34,card,ANON-0053,3.6,Flat White
+3/26/24,12:42,card,ANON-0006,3.0,Cortado
+3/26/24,18:27,card,ANON-0039,3.0,Cortado
+3/26/24,14:02,card,ANON-0023,3.2,Cappuccino
+3/26/24,11:40,card,ANON-0028,3.8,Hot Chocolate
+3/27/24,12:32,card,ANON-0026,2.5,Americano
+3/27/24,09:54,cash,,3.2,Cappuccino
+3/27/24,10:49,card,ANON-0005,2.8,Americano with Milk
+3/27/24,07:38,card,ANON-0037,3.8,Hot Chocolate
+3/27/24,12:28,card,ANON-0024,3.2,Cappuccino
+3/27/24,12:25,card,ANON-0034,2.5,Americano
+3/27/24,08:01,card,ANON-0016,3.8,Hot Chocolate
+3/27/24,21:35,card,ANON-0025,3.2,Cappuccino
+3/27/24,18:28,card,ANON-0017,2.5,Americano
+3/28/24,11:44,cash,,2.0,Espresso
+3/28/24,20:04,card,ANON-0009,2.8,Americano with Milk
+3/28/24,14:05,card,ANON-0046,2.8,Americano with Milk
+3/28/24,08:35,card,ANON-0046,3.8,Hot Chocolate
+3/29/24,17:11,card,ANON-0045,3.2,Cappuccino
+3/30/24,10:50,card,ANON-0008,3.8,Hot Chocolate
+3/30/24,07:23,card,ANON-0032,3.2,Cappuccino
+3/30/24,09:39,card,ANON-0036,3.8,Hot Chocolate
+1/1/25,18:30,cash,,3.6,Flat White
+1/1/25,16:04,card,ANON-0053,3.6,Flat White
+1/1/25,17:04,cash,,3.2,Cappuccino
+1/1/25,12:08,card,ANON-0034,2.8,Americano with Milk
+1/1/25,13:32,card,ANON-0009,3.2,Cappuccino
+1/1/25,09:19,card,ANON-0034,3.5,Latte
+1/1/25,10:22,card,ANON-0046,3.2,Cappuccino
+1/2/25,10:40,card,ANON-0017,3.0,Cortado
+1/2/25,16:34,card,ANON-0020,3.0,Cortado
+1/2/25,16:37,card,ANON-0011,2.5,Americano
+1/2/25,18:57,card,ANON-0040,3.2,Cappuccino
+1/2/25,07:52,card,ANON-0037,3.8,Hot Chocolate
+1/2/25,19:36,card,ANON-0042,3.5,Latte
+1/3/25,14:56,card,ANON-0002,3.6,Flat White
+1/3/25,14:15,card,ANON-0020,3.0,Cortado
+1/3/25,18:03,card,ANON-0005,3.6,Flat White
+1/3/25,14:13,card,ANON-0031,3.2,Cappuccino
+1/3/25,20:45,card,ANON-0021,3.8,Hot Chocolate
+1/3/25,12:25,card,ANON-0056,3.8,Hot Chocolate
+1/4/25,15:06,card,ANON-0033,3.2,Cappuccino
+1/4/25,11:28,card,ANON-0008,3.8,Hot Chocolate
+1/4/25,11:24,card,ANON-0004,2.0,Espresso
+1/4/25,21:10,card,ANON-0056,3.6,Flat White
+1/4/25,18:20,cash,,3.8,Hot Chocolate
+1/4/25,15:29,card,ANON-0032,2.0,Espresso
+1/4/25,14:01,cash,,2.8,Americano with Milk
+1/4/25,15:29,cash,,2.5,Americano
+1/5/25,14:38,card,ANON-0019,3.8,Hot Chocolate
+1/5/25,20:06,card,ANON-0001,2.8,Americano with Milk
+1/5/25,18:23,card,ANON-0017,3.6,Flat White
+1/5/25,07:36,card,ANON-0026,3.6,Flat White
+1/5/25,08:24,card,ANON-0019,2.0,Espresso
+1/5/25,20:39,card,ANON-0018,2.8,Americano with Milk
+1/5/25,13:23,card,ANON-0007,2.5,Americano
+1/5/25,19:09,card,ANON-0024,3.8,Hot Chocolate
+1/6/25,15:02,card,ANON-0026,2.0,Espresso
+1/6/25,12:51,card,ANON-0046,3.5,Latte
+1/6/25,16:57,card,ANON-0010,2.8,Americano with Milk
+1/6/25,12:10,card,ANON-0040,3.2,Cappuccino
+1/6/25,18:53,cash,,3.6,Flat White
+1/6/25,20:32,card,ANON-0033,3.0,Cortado
+1/7/25,12:21,card,ANON-0002,3.0,Cortado
+1/7/25,16:19,cash,,2.5,Americano
+1/7/25,17:50,card,ANON-0017,3.5,Latte
+1/8/25,14:10,card,ANON-0038,2.0,Espresso
+1/8/25,10:02,card,ANON-0044,3.6,Flat White
+1/8/25,12:26,card,ANON-0029,2.5,Americano
+1/8/25,13:32,card,ANON-0014,3.2,Cappuccino
+1/8/25,18:46,cash,,2.8,Americano with Milk
+1/8/25,10:35,card,ANON-0034,3.5,Latte
+1/9/25,14:58,card,ANON-0012,3.6,Flat White
+1/9/25,19:55,card,ANON-0044,3.8,Hot Chocolate
+1/9/25,10:17,card,ANON-0013,3.0,Cortado
+1/9/25,19:18,card,ANON-0020,3.0,Cortado
+1/9/25,12:30,card,ANON-0032,2.0,Espresso
+1/10/25,18:17,card,ANON-0051,3.8,Hot Chocolate
+1/10/25,15:24,card,ANON-0044,3.0,Cortado
+1/10/25,19:09,card,ANON-0050,3.6,Flat White
+1/10/25,08:22,card,ANON-0046,3.0,Cortado
+1/10/25,14:13,card,ANON-0048,2.8,Americano with Milk
+1/10/25,21:35,card,ANON-0018,2.0,Espresso
+1/10/25,18:37,card,ANON-0040,3.0,Cortado
+1/10/25,21:33,card,ANON-0043,2.0,Espresso
+1/10/25,08:26,card,ANON-0004,2.0,Espresso
+1/11/25,21:10,card,ANON-0036,3.2,Cappuccino
+1/11/25,21:30,card,ANON-0057,3.6,Flat White
+1/11/25,11:20,card,ANON-0049,2.8,Americano with Milk
+1/11/25,19:05,card,ANON-0059,3.0,Cortado
+1/11/25,20:59,card,ANON-0047,2.0,Espresso
+1/12/25,09:26,cash,,3.5,Latte
+1/12/25,07:53,cash,,3.2,Cappuccino
+1/12/25,21:47,card,ANON-0012,3.6,Flat White
+1/12/25,07:19,cash,,3.0,Cortado
+1/12/25,12:18,cash,,2.5,Americano
+1/12/25,15:33,cash,,2.8,Americano with Milk
+1/12/25,09:54,cash,,2.8,Americano with Milk
+1/12/25,08:21,card,ANON-0052,2.8,Americano with Milk
+1/13/25,18:21,card,ANON-0001,3.0,Cortado
+1/13/25,10:11,card,ANON-0049,3.0,Cortado
+1/13/25,12:05,card,ANON-0033,3.6,Flat White
+1/13/25,09:30,card,ANON-0012,3.6,Flat White
+1/13/25,07:16,cash,,3.8,Hot Chocolate
+1/13/25,11:21,card,ANON-0049,3.6,Flat White
+1/13/25,07:16,card,ANON-0037,3.0,Cortado
+1/13/25,17:07,card,ANON-0004,3.8,Hot Chocolate
+1/14/25,17:32,card,ANON-0026,2.8,Americano with Milk
+1/14/25,21:18,card,ANON-0041,3.0,Cortado
+1/14/25,09:30,card,ANON-0015,3.8,Hot Chocolate
+1/14/25,12:26,card,ANON-0039,3.2,Cappuccino
+1/14/25,17:52,card,ANON-0052,2.8,Americano with Milk
+1/14/25,19:38,card,ANON-0044,2.0,Espresso
+1/14/25,18:23,card,ANON-0034,2.5,Americano
+1/14/25,08:03,cash,,2.5,Americano
+1/15/25,09:20,card,ANON-0010,2.0,Espresso
+1/15/25,18:37,card,ANON-0014,2.8,Americano with Milk
+1/15/25,14:51,card,ANON-0033,2.8,Americano with Milk
+1/15/25,13:29,card,ANON-0033,3.5,Latte
+1/15/25,19:19,card,ANON-0044,3.5,Latte
+1/15/25,07:47,card,ANON-0053,3.5,Latte
+1/15/25,13:22,card,ANON-0003,2.0,Espresso
+1/15/25,21:57,card,ANON-0004,2.5,Americano
+1/15/25,14:02,cash,,2.5,Americano
+1/16/25,09:49,card,ANON-0050,3.0,Cortado
+1/16/25,13:28,card,ANON-0058,3.6,Flat White
+1/16/25,17:55,card,ANON-0044,3.6,Flat White
+1/17/25,13:33,card,ANON-0035,3.8,Hot Chocolate
+1/17/25,20:00,card,ANON-0015,3.2,Cappuccino
+1/17/25,14:43,cash,,3.5,Latte
+1/17/25,10:15,card,ANON-0053,3.6,Flat White
+1/18/25,10:59,card,ANON-0018,2.8,Americano with Milk
+1/18/25,13:39,card,ANON-0043,2.5,Americano
+1/18/25,08:38,card,ANON-0005,3.5,Latte
+1/18/25,18:55,card,ANON-0044,3.5,Latte
+1/18/25,13:28,card,ANON-0003,3.5,Latte
+1/18/25,20:49,card,ANON-0049,2.0,Espresso
+1/19/25,18:36,card,ANON-0059,3.0,Cortado
+1/19/25,17:52,card,ANON-0050,3.8,Hot Chocolate
+1/19/25,09:42,card,ANON-0057,3.8,Hot Chocolate
+1/19/25,07:35,card,ANON-0018,2.0,Espresso
+1/19/25,15:31,card,ANON-0028,3.2,Cappuccino
+1/19/25,17:42,cash,,3.5,Latte
+1/19/25,18:26,card,ANON-0021,3.6,Flat White
+1/19/25,09:48,card,ANON-0025,3.6,Flat White
+1/19/25,11:54,card,ANON-0015,2.8,Americano with Milk
+1/20/25,07:35,card,ANON-0059,3.2,Cappuccino
+1/20/25,15:33,cash,,3.6,Flat White
+1/20/25,10:21,card,ANON-0017,3.2,Cappuccino
+1/20/25,20:23,cash,,2.5,Americano
+1/20/25,10:03,card,ANON-0054,2.5,Americano
+1/20/25,16:02,card,ANON-0039,3.0,Cortado
+1/20/25,16:46,card,ANON-0049,2.5,Americano
+1/21/25,12:19,cash,,2.0,Espresso
+1/21/25,18:07,card,ANON-0013,3.5,Latte
+1/21/25,18:38,cash,,2.8,Americano with Milk
+1/21/25,15:20,card,ANON-0016,2.0,Espresso
+1/21/25,17:22,card,ANON-0035,3.0,Cortado
+1/21/25,21:31,card,ANON-0033,3.0,Cortado
+1/22/25,14:48,card,ANON-0047,2.8,Americano with Milk
+1/22/25,12:20,cash,,3.8,Hot Chocolate
+1/22/25,10:47,card,ANON-0056,3.6,Flat White
+1/22/25,21:37,card,ANON-0036,3.2,Cappuccino
+1/22/25,12:14,card,ANON-0013,3.6,Flat White
+1/23/25,12:16,card,ANON-0044,2.8,Americano with Milk
+1/23/25,17:47,cash,,2.8,Americano with Milk
+1/23/25,19:22,card,ANON-0047,2.8,Americano with Milk
+1/23/25,14:11,card,ANON-0035,3.2,Cappuccino
+1/24/25,20:04,card,ANON-0054,3.5,Latte
+1/24/25,09:53,card,ANON-0027,3.5,Latte
+1/24/25,07:13,card,ANON-0010,2.0,Espresso
+1/24/25,17:42,card,ANON-0040,2.8,Americano with Milk
+1/24/25,07:34,card,ANON-0002,2.8,Americano with Milk
+1/24/25,18:17,card,ANON-0034,3.6,Flat White
+1/24/25,18:43,card,ANON-0053,3.0,Cortado
+1/24/25,09:06,card,ANON-0059,3.6,Flat White
+1/24/25,10:39,card,ANON-0016,2.5,Americano
+1/25/25,12:25,card,ANON-0006,3.0,Cortado
+1/25/25,10:19,card,ANON-0045,2.8,Americano with Milk
+1/25/25,17:48,card,ANON-0055,2.5,Americano
+1/26/25,13:35,card,ANON-0025,3.5,Latte
+1/26/25,18:10,card,ANON-0001,2.8,Americano with Milk
+1/26/25,17:50,card,ANON-0028,2.5,Americano
+1/26/25,08:57,card,ANON-0055,3.8,Hot Chocolate
+1/26/25,20:44,card,ANON-0058,3.5,Latte
+1/26/25,17:59,card,ANON-0005,2.8,Americano with Milk
+1/27/25,12:01,card,ANON-0055,3.5,Latte
+1/27/25,20:45,card,ANON-0049,2.0,Espresso
+1/27/25,11:10,cash,,3.6,Flat White
+1/27/25,13:43,card,ANON-0055,2.0,Espresso
+1/27/25,09:50,card,ANON-0048,3.8,Hot Chocolate
+1/27/25,07:06,card,ANON-0023,2.5,Americano
+1/28/25,12:38,card,ANON-0005,3.6,Flat White
+1/28/25,12:01,cash,,3.6,Flat White
+1/28/25,14:14,card,ANON-0029,3.0,Cortado
+1/28/25,13:11,card,ANON-0025,3.8,Hot Chocolate
+1/28/25,11:51,card,ANON-0040,3.6,Flat White
+1/28/25,11:09,card,ANON-0006,2.0,Espresso
+1/28/25,09:47,card,ANON-0041,3.6,Flat White
+1/28/25,08:00,card,ANON-0007,3.6,Flat White
+1/28/25,11:06,card,ANON-0049,3.0,Cortado
+1/29/25,13:06,card,ANON-0033,2.8,Americano with Milk
+1/29/25,08:38,card,ANON-0036,3.5,Latte
+1/29/25,07:18,cash,,3.8,Hot Chocolate
+1/29/25,18:57,card,ANON-0006,3.6,Flat White
+1/29/25,17:24,card,ANON-0011,2.0,Espresso
+1/29/25,11:31,card,ANON-0020,3.2,Cappuccino
+1/29/25,11:26,card,ANON-0028,3.2,Cappuccino
+1/30/25,12:16,card,ANON-0005,3.0,Cortado
+1/30/25,16:39,card,ANON-0032,2.0,Espresso
+1/30/25,11:00,card,ANON-0009,2.0,Espresso
+1/30/25,13:51,card,ANON-0040,3.6,Flat White
+1/30/25,20:52,card,ANON-0028,3.8,Hot Chocolate
+1/30/25,18:12,card,ANON-0039,3.2,Cappuccino
+1/30/25,12:18,card,ANON-0026,2.8,Americano with Milk
+1/31/25,20:50,card,ANON-0018,2.0,Espresso
+1/31/25,10:37,card,ANON-0037,3.6,Flat White
+1/31/25,07:46,card,ANON-0036,3.2,Cappuccino
+1/31/25,10:28,cash,,2.8,Americano with Milk
+1/31/25,20:54,card,ANON-0005,3.0,Cortado
+1/31/25,17:19,card,ANON-0009,3.6,Flat White
+2/1/25,18:27,card,ANON-0010,2.0,Espresso
+2/1/25,14:37,card,ANON-0039,3.6,Flat White
+2/1/25,20:44,card,ANON-0059,3.6,Flat White
+2/1/25,12:44,card,ANON-0051,3.6,Flat White
+2/2/25,17:42,card,ANON-0016,2.5,Americano
+2/2/25,07:36,card,ANON-0040,3.8,Hot Chocolate
+2/2/25,12:50,cash,,3.6,Flat White
+2/2/25,11:14,card,ANON-0007,3.6,Flat White
+2/2/25,14:49,card,ANON-0026,2.0,Espresso
+2/2/25,14:06,card,ANON-0002,3.2,Cappuccino
+2/2/25,08:53,card,ANON-0006,3.0,Cortado
+2/2/25,14:50,card,ANON-0022,3.2,Cappuccino
+2/3/25,14:06,card,ANON-0023,2.0,Espresso
+2/3/25,12:04,card,ANON-0029,2.8,Americano with Milk
+2/3/25,08:01,card,ANON-0046,3.0,Cortado
+2/3/25,19:10,card,ANON-0044,3.8,Hot Chocolate
+2/3/25,09:21,card,ANON-0036,2.0,Espresso
+2/4/25,09:11,card,ANON-0041,2.0,Espresso
+2/4/25,16:56,card,ANON-0048,3.6,Flat White
+2/5/25,13:00,card,ANON-0028,2.0,Espresso
+2/5/25,18:51,card,ANON-0049,2.0,Espresso
+2/5/25,20:34,card,ANON-0052,2.5,Americano
+2/5/25,14:07,card,ANON-0013,3.2,Cappuccino
+2/5/25,15:40,card,ANON-0032,3.0,Cortado
+2/6/25,12:54,card,ANON-0023,3.6,Flat White
+2/6/25,17:45,card,ANON-0053,2.8,Americano with Milk
+2/6/25,16:05,cash,,3.0,Cortado
+2/6/25,11:07,card,ANON-0016,3.2,Cappuccino
+2/6/25,15:24,card,ANON-0010,3.2,Cappuccino
+2/6/25,13:27,card,ANON-0037,3.6,Flat White
+2/7/25,18:58,card,ANON-0035,3.2,Cappuccino
+2/7/25,11:08,card,ANON-0032,3.2,Cappuccino
+2/7/25,16:03,card,ANON-0029,3.2,Cappuccino
+2/7/25,14:08,cash,,3.8,Hot Chocolate
+2/7/25,15:41,card,ANON-0036,2.0,Espresso
+2/7/25,13:45,card,ANON-0032,2.8,Americano with Milk
+2/7/25,16:01,card,ANON-0006,2.8,Americano with Milk
+2/7/25,10:34,card,ANON-0018,2.0,Espresso
+2/8/25,16:07,card,ANON-0008,2.8,Americano with Milk
+2/8/25,12:34,card,ANON-0053,3.0,Cortado
+2/8/25,15:13,card,ANON-0029,3.5,Latte
+2/8/25,17:48,card,ANON-0054,3.6,Flat White
+2/8/25,14:16,card,ANON-0003,2.0,Espresso
+2/8/25,08:28,cash,,3.8,Hot Chocolate
+2/9/25,10:51,card,ANON-0016,2.5,Americano
+2/9/25,16:40,cash,,3.8,Hot Chocolate
+2/9/25,19:13,card,ANON-0009,3.6,Flat White
+2/9/25,12:34,card,ANON-0037,2.0,Espresso
+2/9/25,12:45,card,ANON-0011,3.0,Cortado
+2/9/25,20:32,card,ANON-0018,3.0,Cortado
+2/9/25,19:26,card,ANON-0049,2.5,Americano
+2/9/25,20:41,cash,,3.5,Latte
+2/9/25,10:09,card,ANON-0009,3.2,Cappuccino
+2/9/25,20:43,card,ANON-0049,3.8,Hot Chocolate
+2/10/25,14:04,card,ANON-0025,3.0,Cortado
+2/10/25,11:44,card,ANON-0048,2.5,Americano
+2/10/25,12:37,card,ANON-0032,3.8,Hot Chocolate
+2/10/25,20:46,cash,,3.5,Latte
+2/10/25,17:42,card,ANON-0030,2.5,Americano
+2/10/25,19:34,cash,,3.8,Hot Chocolate
+2/11/25,20:13,card,ANON-0028,3.6,Flat White
+2/11/25,11:21,card,ANON-0054,2.8,Americano with Milk
+2/11/25,19:21,card,ANON-0032,3.2,Cappuccino
+2/11/25,19:53,card,ANON-0041,3.5,Latte
+2/11/25,09:28,card,ANON-0055,2.8,Americano with Milk
+2/11/25,10:44,card,ANON-0028,2.8,Americano with Milk
+2/11/25,11:10,cash,,3.2,Cappuccino
+2/12/25,08:23,card,ANON-0017,2.5,Americano
+2/12/25,11:46,card,ANON-0041,3.2,Cappuccino
+2/12/25,18:06,card,ANON-0006,2.0,Espresso
+2/12/25,09:37,card,ANON-0005,3.5,Latte
+2/12/25,07:00,card,ANON-0029,2.0,Espresso
+2/12/25,13:44,card,ANON-0056,3.8,Hot Chocolate
+2/12/25,13:05,card,ANON-0015,3.2,Cappuccino
+2/12/25,21:19,card,ANON-0024,2.5,Americano
+2/12/25,19:55,card,ANON-0053,3.2,Cappuccino
+2/13/25,09:04,card,ANON-0044,3.2,Cappuccino
+2/13/25,14:22,card,ANON-0011,3.5,Latte
+2/13/25,21:26,card,ANON-0010,2.0,Espresso
+2/13/25,08:57,cash,,2.8,Americano with Milk
+2/14/25,12:50,card,ANON-0028,3.6,Flat White
+2/14/25,08:15,card,ANON-0042,3.2,Cappuccino
+2/14/25,07:54,card,ANON-0045,3.0,Cortado
+2/14/25,15:12,card,ANON-0039,3.0,Cortado
+2/14/25,19:57,card,ANON-0004,3.6,Flat White
+2/14/25,10:31,card,ANON-0008,2.0,Espresso
+2/14/25,12:59,card,ANON-0001,2.5,Americano
+2/14/25,20:36,card,ANON-0056,3.8,Hot Chocolate
+2/14/25,09:48,card,ANON-0044,3.6,Flat White
+2/15/25,19:04,cash,,2.8,Americano with Milk
+2/15/25,11:13,card,ANON-0001,3.5,Latte
+2/15/25,19:25,cash,,3.5,Latte
+2/15/25,19:26,card,ANON-0033,3.0,Cortado
+2/15/25,17:34,card,ANON-0006,3.6,Flat White
+2/15/25,08:32,card,ANON-0020,3.2,Cappuccino
+2/15/25,09:34,cash,,2.0,Espresso
+2/15/25,19:53,card,ANON-0041,3.8,Hot Chocolate
+2/16/25,20:15,card,ANON-0047,3.0,Cortado
+2/16/25,08:29,card,ANON-0028,3.5,Latte
+2/16/25,17:47,card,ANON-0048,3.5,Latte
+2/16/25,09:44,card,ANON-0046,3.2,Cappuccino
+2/16/25,15:33,card,ANON-0023,3.5,Latte
+2/17/25,18:49,card,ANON-0009,3.0,Cortado
+2/17/25,19:57,card,ANON-0008,3.0,Cortado
+2/17/25,11:33,card,ANON-0028,3.5,Latte
+2/17/25,17:04,card,ANON-0037,2.5,Americano
+2/18/25,09:23,card,ANON-0037,3.5,Latte
+2/18/25,21:36,card,ANON-0007,3.2,Cappuccino
+2/18/25,07:02,card,ANON-0033,2.5,Americano
+2/18/25,12:24,card,ANON-0031,3.5,Latte
+2/19/25,07:35,card,ANON-0055,3.2,Cappuccino
+2/19/25,13:58,card,ANON-0016,3.6,Flat White
+2/19/25,16:23,card,ANON-0005,3.8,Hot Chocolate
+2/19/25,07:11,card,ANON-0058,2.5,Americano
+2/19/25,13:04,card,ANON-0003,2.0,Espresso
+2/19/25,19:54,cash,,2.8,Americano with Milk
+2/19/25,14:00,card,ANON-0036,3.0,Cortado
+2/20/25,14:23,card,ANON-0016,3.0,Cortado
+2/20/25,19:12,cash,,2.8,Americano with Milk
+2/20/25,07:14,card,ANON-0027,2.0,Espresso
+2/20/25,21:00,card,ANON-0045,3.8,Hot Chocolate
+2/20/25,13:54,card,ANON-0043,3.8,Hot Chocolate
+2/21/25,10:26,card,ANON-0034,3.0,Cortado
+2/21/25,09:45,cash,,2.8,Americano with Milk
+2/21/25,10:57,card,ANON-0059,3.0,Cortado
+2/21/25,14:47,card,ANON-0024,3.6,Flat White
+2/21/25,09:40,card,ANON-0033,2.5,Americano
+2/21/25,07:27,card,ANON-0037,3.6,Flat White
+2/21/25,20:20,card,ANON-0017,3.2,Cappuccino
+2/21/25,12:20,card,ANON-0048,3.6,Flat White
+2/22/25,16:06,card,ANON-0050,2.0,Espresso
+2/22/25,14:20,card,ANON-0029,3.2,Cappuccino
+2/22/25,19:13,card,ANON-0023,3.6,Flat White
+2/22/25,20:07,card,ANON-0017,2.8,Americano with Milk
+2/22/25,11:52,card,ANON-0044,2.5,Americano
+2/23/25,12:09,card,ANON-0055,3.5,Latte
+2/23/25,13:32,card,ANON-0023,2.5,Americano
+2/23/25,20:11,card,ANON-0017,3.5,Latte
+2/23/25,20:28,cash,,3.5,Latte
+2/23/25,19:50,card,ANON-0007,2.0,Espresso
+2/23/25,20:49,card,ANON-0004,3.2,Cappuccino
+2/23/25,13:23,card,ANON-0053,2.0,Espresso
+2/24/25,21:52,card,ANON-0017,2.5,Americano
+2/24/25,10:57,card,ANON-0005,2.5,Americano
+2/24/25,21:54,card,ANON-0006,2.8,Americano with Milk
+2/24/25,07:10,card,ANON-0030,3.8,Hot Chocolate
+2/24/25,14:01,card,ANON-0026,3.6,Flat White
+2/25/25,12:13,card,ANON-0012,3.6,Flat White
+2/25/25,21:09,card,ANON-0029,3.2,Cappuccino
+2/26/25,13:56,card,ANON-0032,2.0,Espresso
+2/26/25,13:08,card,ANON-0018,2.8,Americano with Milk
+2/26/25,19:33,card,ANON-0057,3.6,Flat White
+2/26/25,15:50,card,ANON-0052,2.0,Espresso
+2/26/25,19:45,cash,,3.5,Latte
+2/26/25,14:22,card,ANON-0051,3.8,Hot Chocolate
+2/26/25,07:20,card,ANON-0012,3.8,Hot Chocolate
+2/26/25,19:17,card,ANON-0052,2.0,Espresso
+2/26/25,15:22,card,ANON-0031,3.5,Latte
+2/27/25,08:15,cash,,2.0,Espresso
+2/27/25,19:58,card,ANON-0053,2.0,Espresso
+2/27/25,16:54,card,ANON-0015,3.5,Latte
+2/27/25,20:11,card,ANON-0054,3.6,Flat White
+2/27/25,19:47,card,ANON-0021,3.2,Cappuccino
+2/27/25,07:45,cash,,3.8,Hot Chocolate
+2/27/25,16:09,cash,,3.8,Hot Chocolate
+2/28/25,14:02,card,ANON-0012,2.8,Americano with Milk
+2/28/25,10:01,card,ANON-0039,2.5,Americano
+2/28/25,16:12,card,ANON-0059,2.8,Americano with Milk
+2/28/25,21:51,card,ANON-0012,3.2,Cappuccino
+2/28/25,16:45,card,ANON-0010,3.8,Hot Chocolate
+3/1/25,15:55,card,ANON-0055,3.2,Cappuccino
+3/1/25,12:45,cash,,3.8,Hot Chocolate
+3/1/25,11:20,card,ANON-0022,3.6,Flat White
+3/1/25,18:27,cash,,3.2,Cappuccino
+3/1/25,18:35,card,ANON-0012,2.8,Americano with Milk
+3/1/25,20:11,card,ANON-0038,3.8,Hot Chocolate
+3/2/25,07:44,card,ANON-0047,3.0,Cortado
+3/2/25,19:36,cash,,3.6,Flat White
+3/2/25,21:51,card,ANON-0021,3.5,Latte
+3/2/25,21:31,card,ANON-0007,2.0,Espresso
+3/3/25,10:22,card,ANON-0005,3.2,Cappuccino
+3/3/25,08:52,card,ANON-0057,3.8,Hot Chocolate
+3/3/25,10:15,card,ANON-0017,3.8,Hot Chocolate
+3/3/25,08:46,card,ANON-0051,2.5,Americano
+3/3/25,18:26,card,ANON-0029,3.5,Latte
+3/3/25,14:56,cash,,3.2,Cappuccino
+3/3/25,08:53,card,ANON-0025,3.6,Flat White
+3/3/25,17:48,card,ANON-0037,2.8,Americano with Milk
+3/3/25,19:54,card,ANON-0005,2.0,Espresso
+3/4/25,08:21,cash,,3.0,Cortado
+3/4/25,09:46,cash,,3.2,Cappuccino
+3/4/25,08:21,card,ANON-0058,2.5,Americano
+3/4/25,17:10,card,ANON-0028,2.8,Americano with Milk
+3/4/25,12:13,card,ANON-0007,3.6,Flat White
+3/4/25,18:59,card,ANON-0036,2.0,Espresso
+3/4/25,10:06,card,ANON-0020,3.0,Cortado
+3/5/25,20:31,card,ANON-0036,3.5,Latte
+3/5/25,13:05,card,ANON-0001,3.2,Cappuccino
+3/5/25,16:30,card,ANON-0041,3.0,Cortado
+3/5/25,09:40,card,ANON-0014,2.0,Espresso
+3/5/25,14:54,cash,,3.0,Cortado
+3/5/25,14:31,card,ANON-0026,2.5,Americano
+3/5/25,13:11,card,ANON-0035,3.0,Cortado
+3/6/25,14:29,card,ANON-0017,3.2,Cappuccino
+3/6/25,16:03,card,ANON-0018,3.0,Cortado
+3/6/25,08:05,card,ANON-0043,3.2,Cappuccino
+3/6/25,19:37,card,ANON-0027,3.8,Hot Chocolate
+3/6/25,13:52,card,ANON-0054,2.0,Espresso
+3/7/25,17:55,cash,,3.6,Flat White
+3/7/25,14:19,card,ANON-0016,2.8,Americano with Milk
+3/7/25,18:02,card,ANON-0055,2.5,Americano
+3/7/25,14:11,card,ANON-0049,3.2,Cappuccino
+3/7/25,19:12,cash,,3.2,Cappuccino
+3/7/25,17:27,card,ANON-0006,3.2,Cappuccino
+3/7/25,17:09,cash,,2.0,Espresso
+3/7/25,21:51,card,ANON-0047,3.0,Cortado
+3/8/25,11:33,card,ANON-0055,3.6,Flat White
+3/8/25,07:50,cash,,2.8,Americano with Milk
+3/8/25,09:36,card,ANON-0010,3.6,Flat White
+3/8/25,16:49,cash,,2.5,Americano
+3/8/25,15:56,card,ANON-0056,2.5,Americano
+3/8/25,11:24,cash,,3.8,Hot Chocolate
+3/8/25,07:11,card,ANON-0031,2.8,Americano with Milk
+3/8/25,16:43,card,ANON-0040,3.0,Cortado
+3/9/25,21:21,card,ANON-0057,3.6,Flat White
+3/9/25,21:17,card,ANON-0031,2.0,Espresso
+3/9/25,19:19,card,ANON-0053,3.8,Hot Chocolate
+3/9/25,20:44,card,ANON-0032,3.0,Cortado
+3/9/25,10:08,cash,,2.5,Americano
+3/9/25,14:49,cash,,3.0,Cortado
+3/9/25,16:41,card,ANON-0027,3.8,Hot Chocolate
+3/10/25,15:55,card,ANON-0049,3.6,Flat White
+3/10/25,19:10,card,ANON-0033,3.8,Hot Chocolate
+3/10/25,13:08,card,ANON-0033,2.5,Americano
+3/10/25,20:12,card,ANON-0057,3.5,Latte
+3/10/25,07:58,card,ANON-0030,3.5,Latte
+3/10/25,12:52,card,ANON-0018,3.8,Hot Chocolate
+3/10/25,21:07,card,ANON-0041,2.8,Americano with Milk
+3/10/25,16:28,card,ANON-0032,3.5,Latte
+3/11/25,14:37,cash,,3.2,Cappuccino
+3/11/25,21:16,card,ANON-0054,3.8,Hot Chocolate
+3/11/25,07:10,card,ANON-0025,2.5,Americano
+3/11/25,17:14,cash,,2.0,Espresso
+3/11/25,15:01,card,ANON-0027,2.0,Espresso
+3/11/25,17:11,card,ANON-0009,3.5,Latte
+3/11/25,19:19,card,ANON-0039,3.5,Latte
+3/11/25,20:22,card,ANON-0025,3.0,Cortado
+3/12/25,16:25,card,ANON-0053,3.0,Cortado
+3/12/25,20:53,card,ANON-0043,2.5,Americano
+3/12/25,16:18,card,ANON-0039,3.8,Hot Chocolate
+3/12/25,08:21,card,ANON-0031,3.0,Cortado
+3/12/25,11:16,card,ANON-0056,3.0,Cortado
+3/13/25,19:15,card,ANON-0034,3.0,Cortado
+3/13/25,19:38,card,ANON-0052,3.5,Latte
+3/13/25,09:46,card,ANON-0044,3.6,Flat White
+3/13/25,11:58,card,ANON-0019,3.5,Latte
+3/13/25,07:37,card,ANON-0048,3.6,Flat White
+3/13/25,10:43,card,ANON-0046,2.0,Espresso
+3/13/25,17:22,cash,,2.8,Americano with Milk
+3/14/25,09:47,card,ANON-0031,3.2,Cappuccino
+3/14/25,19:58,card,ANON-0036,3.0,Cortado
+3/14/25,21:21,cash,,3.2,Cappuccino
+3/15/25,18:55,card,ANON-0015,2.5,Americano
+3/15/25,12:23,card,ANON-0057,3.0,Cortado
+3/15/25,20:07,card,ANON-0030,3.0,Cortado
+3/15/25,16:37,card,ANON-0041,2.8,Americano with Milk
+3/15/25,15:07,card,ANON-0013,2.5,Americano
+3/15/25,07:55,card,ANON-0027,3.6,Flat White
+3/16/25,21:58,card,ANON-0037,2.0,Espresso
+3/16/25,18:11,card,ANON-0056,2.8,Americano with Milk
+3/16/25,09:20,card,ANON-0041,2.5,Americano
+3/16/25,10:48,card,ANON-0018,3.5,Latte
+3/16/25,14:50,card,ANON-0011,3.2,Cappuccino
+3/16/25,17:27,card,ANON-0028,2.5,Americano
+3/16/25,13:00,card,ANON-0031,3.6,Flat White
+3/17/25,12:00,card,ANON-0047,3.5,Latte
+3/17/25,10:01,card,ANON-0034,3.8,Hot Chocolate
+3/17/25,10:44,card,ANON-0016,3.5,Latte
+3/17/25,13:32,card,ANON-0007,3.8,Hot Chocolate
+3/17/25,07:19,card,ANON-0053,3.0,Cortado
+3/17/25,16:33,card,ANON-0034,3.0,Cortado
+3/18/25,14:22,card,ANON-0058,3.2,Cappuccino
+3/18/25,21:51,card,ANON-0059,2.0,Espresso
+3/18/25,18:08,card,ANON-0015,3.6,Flat White
+3/18/25,15:10,card,ANON-0038,2.0,Espresso
+3/19/25,19:02,card,ANON-0042,2.5,Americano
+3/19/25,11:49,cash,,3.6,Flat White
+3/19/25,17:06,card,ANON-0004,3.5,Latte
+3/19/25,13:28,card,ANON-0008,3.5,Latte
+3/19/25,14:44,card,ANON-0017,3.6,Flat White
+3/19/25,17:00,card,ANON-0044,3.2,Cappuccino
+3/19/25,17:33,card,ANON-0007,3.0,Cortado
+3/19/25,09:26,card,ANON-0045,3.0,Cortado
+3/19/25,08:18,card,ANON-0040,2.5,Americano
+3/19/25,10:38,card,ANON-0032,2.5,Americano
+3/20/25,11:10,card,ANON-0027,2.0,Espresso
+3/20/25,10:44,card,ANON-0059,3.5,Latte
+3/20/25,07:42,card,ANON-0001,2.8,Americano with Milk
+3/20/25,20:36,cash,,2.5,Americano
+3/20/25,19:32,card,ANON-0006,2.8,Americano with Milk
+3/20/25,21:16,card,ANON-0007,2.5,Americano
+3/20/25,11:29,card,ANON-0019,2.0,Espresso
+3/21/25,20:02,card,ANON-0012,3.5,Latte
+3/21/25,12:27,card,ANON-0044,3.0,Cortado
+3/21/25,21:02,card,ANON-0049,2.5,Americano
+3/21/25,17:41,cash,,3.5,Latte
+3/21/25,14:39,card,ANON-0058,3.2,Cappuccino
+3/21/25,08:23,cash,,3.0,Cortado
+3/21/25,13:29,card,ANON-0026,3.8,Hot Chocolate
+3/21/25,20:30,card,ANON-0045,3.0,Cortado
+3/22/25,18:03,card,ANON-0045,3.2,Cappuccino
+3/22/25,16:30,card,ANON-0059,3.2,Cappuccino
+3/22/25,19:22,card,ANON-0025,2.8,Americano with Milk
+3/22/25,21:53,cash,,3.5,Latte
+3/22/25,08:56,card,ANON-0032,3.2,Cappuccino
+3/22/25,11:41,card,ANON-0005,3.6,Flat White
+3/22/25,17:33,card,ANON-0056,3.8,Hot Chocolate
+3/23/25,17:55,cash,,2.0,Espresso
+3/23/25,18:39,card,ANON-0045,3.8,Hot Chocolate
+3/23/25,10:30,card,ANON-0047,2.5,Americano
+3/23/25,13:09,card,ANON-0042,3.8,Hot Chocolate
+3/24/25,15:54,card,ANON-0011,3.5,Latte
+3/24/25,20:10,cash,,2.8,Americano with Milk
+3/24/25,10:21,card,ANON-0021,2.5,Americano
+3/24/25,15:41,card,ANON-0015,3.0,Cortado
+3/24/25,08:29,card,ANON-0016,3.6,Flat White
+3/24/25,08:54,card,ANON-0029,2.8,Americano with Milk
+3/24/25,14:47,card,ANON-0008,2.8,Americano with Milk
+3/24/25,07:35,card,ANON-0027,3.5,Latte
+3/25/25,16:39,card,ANON-0051,3.5,Latte
+3/25/25,15:13,cash,,3.0,Cortado
+3/25/25,12:52,cash,,2.8,Americano with Milk
+3/25/25,14:21,card,ANON-0055,3.5,Latte
+3/26/25,18:28,card,ANON-0024,2.8,Americano with Milk
+3/26/25,10:00,card,ANON-0043,2.5,Americano
+3/26/25,19:18,card,ANON-0041,3.8,Hot Chocolate
+3/26/25,21:10,card,ANON-0003,3.8,Hot Chocolate
+3/27/25,18:46,card,ANON-0046,2.8,Americano with Milk
+3/27/25,10:12,card,ANON-0040,3.6,Flat White
+3/27/25,13:13,cash,,2.5,Americano
+3/27/25,18:21,card,ANON-0013,2.8,Americano with Milk
+3/27/25,21:40,card,ANON-0003,2.5,Americano
+3/28/25,15:08,card,ANON-0038,2.8,Americano with Milk
+3/28/25,07:35,card,ANON-0048,2.8,Americano with Milk
+3/28/25,21:32,card,ANON-0031,3.6,Flat White
+3/28/25,18:52,card,ANON-0012,3.2,Cappuccino
+3/28/25,16:38,card,ANON-0043,3.2,Cappuccino
+3/28/25,13:38,card,ANON-0025,3.8,Hot Chocolate
+3/28/25,11:28,card,ANON-0022,2.0,Espresso
+3/28/25,18:56,card,ANON-0039,3.2,Cappuccino
+3/29/25,20:20,card,ANON-0036,3.0,Cortado
+3/29/25,18:18,card,ANON-0040,2.0,Espresso
+3/29/25,09:45,cash,,3.8,Hot Chocolate
+3/29/25,17:20,card,ANON-0045,3.2,Cappuccino
+3/30/25,18:26,card,ANON-0043,2.8,Americano with Milk
+3/30/25,13:51,cash,,3.0,Cortado
+3/30/25,13:09,card,ANON-0002,3.5,Latte
+3/30/25,11:48,card,ANON-0013,3.5,Latte
+3/30/25,17:16,cash,,3.2,Cappuccino
+3/30/25,19:18,card,ANON-0045,3.2,Cappuccino
+3/31/25,12:52,card,ANON-0003,2.0,Espresso
+3/31/25,17:47,card,ANON-0056,2.8,Americano with Milk
+3/31/25,13:15,card,ANON-0036,2.0,Espresso

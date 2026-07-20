@@ -1,0 +1,15 @@
+anthropic
+langchain
+langchain-anthropic
+langchain-community
+langchain-core
+langchain-huggingface
+sentence-transformers
+python-dotenv
+pydantic
+docarray
+wikipedia
+beautifulsoup4
+panel
+param
+jupyter

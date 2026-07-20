@@ -1,0 +1,25 @@
+# ============================================================
+# 07-Agentic-AI — dependencies (migrated to Anthropic Claude)
+# ============================================================
+
+# --- LLM providers ---
+anthropic>=0.40.0          # Claude: all text, reasoning, vision and tool-calling
+aisuite[anthropic]>=0.1.7  # multi-provider client used by M3, M4, M5 (Anthropic backend)
+openai>=1.40.0             # ONLY used by M5 for DALL·E 3 image generation (Claude cannot generate images)
+
+# --- Research / web tools (M4, M5) ---
+tavily-python>=0.5.0       # Tavily web search (needs TAVILY_API_KEY)
+wikipedia>=1.4.0           # Wikipedia summaries (M4)
+requests>=2.31.0           # HTTP calls (arXiv, weather, image download)
+
+# --- Data / notebook stack ---
+pandas>=2.0.0
+duckdb>=0.10.0             # imported by M4 utils.py
+matplotlib>=3.7.0          # chart generation (M2)
+Pillow>=10.0.0             # image handling (M3 QR codes, M5 images)
+qrcode>=7.4.0              # QR code generation (M3)
+
+# --- Environment / notebook ---
+python-dotenv>=1.0.0
+ipython>=8.0.0
+jupyter>=1.0.0

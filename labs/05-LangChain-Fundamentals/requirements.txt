@@ -1,0 +1,11 @@
+anthropic
+langchain
+langchain-anthropic
+langchain-openai
+langchain-community
+docarray
+wikipedia
+pandas
+panel
+python-dotenv
+jupyter

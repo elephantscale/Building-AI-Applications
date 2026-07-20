@@ -1,0 +1,11 @@
+anthropic
+langchain-anthropic
+langchain
+langchain-community
+langchain-experimental
+sqlalchemy
+pandas
+numpy
+tabulate
+python-dotenv
+jupyter
