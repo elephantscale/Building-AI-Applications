@@ -1,0 +1,102 @@
+{
+  "summary": "Here is a summary of the document in 2-3 sentences:\n\nThe document contains 50 math problems covering various topics such as algebra, geometry, and basic arithmetic operations. The problems range from simple calculations to more complex scenarios involving multiple steps and variables. The document appears to be a collection of word problems designed to test problem-solving skills and mathematical reasoning.",
+  "cot_examples": [
+    {
+      "question": "If James writes a 3-page letter to 2 different friends twice a week, how many pages does he write in a month?",
+      "reasoning": "Step 1: First, I need to determine how many pages James writes in a week. He writes 3 pages to 2 friends twice a week, so he writes 3 * 2 * 2 = 12 pages per week.\nStep 2: Then, I need to calculate how many pages he writes in a month. Assuming a month is approximately 4 weeks, James writes 12 * 4 = 48 pages in a month.",
+      "answer": "48"
+    },
+    {
+      "question": "If Mark has 10 yellow flowers and there are 80% more purple flowers than yellow flowers, and 25% as many green flowers as the total of yellow and purple flowers, how many flowers does Mark have?",
+      "reasoning": "Step 1: First, I need to find out how many purple flowers there are. Since there are 80% more purple flowers than yellow flowers, the number of purple flowers is 10 + (10 * 0.8) = 10 + 8 = 18.\nStep 2: Then, I need to determine the total number of yellow and purple flowers. 10 (yellow) + 18 (purple) = 28.\nStep 3: Next, I need to calculate the number of green flowers, which is 25% of the total of yellow and purple flowers. So, 28 * 0.25 = 7 green flowers.\nStep 4: Finally, I need to sum up the number of flowers of all colors. 10 (yellow) + 18 (purple) + 7 (green) = 35.",
+      "answer": "35"
+    },
+    {
+      "question": "If Tobias is buying a new pair of shoes that costs $95 and he has been saving up his money for the past three months, getting a $5 allowance a month and charging $15 to mow a lawn and $7 to shovel a driveway, and he mows 4 lawns, how many driveways did he shovel if he has $15 left after buying the shoes?",
+      "reasoning": "Step 1: First, I need to determine how much money Tobias had before buying the shoes. He spent $95 on shoes and had $15 left, so he had $95 + $15 = $110.\nStep 2: Then, I need to calculate how much money Tobias saved from his allowance. He saved for 3 months at $5 per month, so he saved $5 * 3 = $15 from his allowance.\nStep 3: Next, I need to determine how much money Tobias made from mowing lawns. He mowed 4 lawns at $15 per lawn, so he made $15 * 4 = $60 from mowing lawns.\nStep 4: Now, I need to find out how much money Tobias made from shoveling driveways. He had a total of $110, saved $15 from allowance, and made $60 from mowing lawns, so $110 - $15 - $60 = $35 was made from shoveling driveways.\nStep 5: Finally, I need to calculate the number of driveways Tobias shoveled. He made $35 from shoveling at $7 per driveway, so he shoveled $35 / $7 = 5 driveways.",
+      "answer": "5"
+    },
+    {
+      "question": "If a deep-sea monster consumes 847 people over 300 years, and each new ship has twice as many people as the last ship, how many people were on the ship the monster ate in the first hundred years?",
+      "reasoning": "Step 1: Let's denote the number of people on the first ship as x. Then, the number of people on the second ship is 2x, and on the third ship is 2 * 2x = 4x.\nStep 2: The total number of people consumed over 300 years is the sum of the people on the three ships, which is x + 2x + 4x = 7x.\nStep 3: We are given that the total number of people consumed is 847, so 7x = 847.\nStep 4: To find the number of people on the first ship, we need to solve for x. x = 847 / 7 = 121.",
+      "answer": "121"
+    },
+    {
+      "question": "If Rachel and Sara want to attend a beauty and modeling contest and Sara buys a pair of shoes for $50 and a dress for $200, how much should Rachel budget if she wants to spend twice as much as Sara on shoes and dress?",
+      "reasoning": "Step 1: First, I need to determine how much Sara spent on shoes and dress. She spent $50 on shoes and $200 on a dress, so she spent $50 + $200 = $250 in total.\nStep 2: Then, I need to calculate how much Rachel should budget to spend twice as much as Sara. Twice the amount Sara spent is 2 * $250 = $500.",
+      "answer": "500"
+    }
+  ],
+  "conversations": [
+    [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant that provides detailed explanations."
+      },
+      {
+        "role": "user",
+        "content": "If James writes a 3-page letter to 2 different friends twice a week, how many pages does he write in a month?"
+      },
+      {
+        "role": "assistant",
+        "content": "Let me think through this step by step:\n\nStep 1: First, I need to determine how many pages James writes in a week. He writes 3 pages to 2 friends twice a week, so he writes 3 * 2 * 2 = 12 pages per week.\nStep 2: Then, I need to calculate how many pages he writes in a month. Assuming a month is approximately 4 weeks, James writes 12 * 4 = 48 pages in a month.\n\nSo the answer is: 48"
+      }
+    ],
+    [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant that provides detailed explanations."
+      },
+      {
+        "role": "user",
+        "content": "If Mark has 10 yellow flowers and there are 80% more purple flowers than yellow flowers, and 25% as many green flowers as the total of yellow and purple flowers, how many flowers does Mark have?"
+      },
+      {
+        "role": "assistant",
+        "content": "Let me think through this step by step:\n\nStep 1: First, I need to find out how many purple flowers there are. Since there are 80% more purple flowers than yellow flowers, the number of purple flowers is 10 + (10 * 0.8) = 10 + 8 = 18.\nStep 2: Then, I need to determine the total number of yellow and purple flowers. 10 (yellow) + 18 (purple) = 28.\nStep 3: Next, I need to calculate the number of green flowers, which is 25% of the total of yellow and purple flowers. So, 28 * 0.25 = 7 green flowers.\nStep 4: Finally, I need to sum up the number of flowers of all colors. 10 (yellow) + 18 (purple) + 7 (green) = 35.\n\nSo the answer is: 35"
+      }
+    ],
+    [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant that provides detailed explanations."
+      },
+      {
+        "role": "user",
+        "content": "If Tobias is buying a new pair of shoes that costs $95 and he has been saving up his money for the past three months, getting a $5 allowance a month and charging $15 to mow a lawn and $7 to shovel a driveway, and he mows 4 lawns, how many driveways did he shovel if he has $15 left after buying the shoes?"
+      },
+      {
+        "role": "assistant",
+        "content": "Let me think through this step by step:\n\nStep 1: First, I need to determine how much money Tobias had before buying the shoes. He spent $95 on shoes and had $15 left, so he had $95 + $15 = $110.\nStep 2: Then, I need to calculate how much money Tobias saved from his allowance. He saved for 3 months at $5 per month, so he saved $5 * 3 = $15 from his allowance.\nStep 3: Next, I need to determine how much money Tobias made from mowing lawns. He mowed 4 lawns at $15 per lawn, so he made $15 * 4 = $60 from mowing lawns.\nStep 4: Now, I need to find out how much money Tobias made from shoveling driveways. He had a total of $110, saved $15 from allowance, and made $60 from mowing lawns, so $110 - $15 - $60 = $35 was made from shoveling driveways.\nStep 5: Finally, I need to calculate the number of driveways Tobias shoveled. He made $35 from shoveling at $7 per driveway, so he shoveled $35 / $7 = 5 driveways.\n\nSo the answer is: 5"
+      }
+    ],
+    [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant that provides detailed explanations."
+      },
+      {
+        "role": "user",
+        "content": "If a deep-sea monster consumes 847 people over 300 years, and each new ship has twice as many people as the last ship, how many people were on the ship the monster ate in the first hundred years?"
+      },
+      {
+        "role": "assistant",
+        "content": "Let me think through this step by step:\n\nStep 1: Let's denote the number of people on the first ship as x. Then, the number of people on the second ship is 2x, and on the third ship is 2 * 2x = 4x.\nStep 2: The total number of people consumed over 300 years is the sum of the people on the three ships, which is x + 2x + 4x = 7x.\nStep 3: We are given that the total number of people consumed is 847, so 7x = 847.\nStep 4: To find the number of people on the first ship, we need to solve for x. x = 847 / 7 = 121.\n\nSo the answer is: 121"
+      }
+    ],
+    [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant that provides detailed explanations."
+      },
+      {
+        "role": "user",
+        "content": "If Rachel and Sara want to attend a beauty and modeling contest and Sara buys a pair of shoes for $50 and a dress for $200, how much should Rachel budget if she wants to spend twice as much as Sara on shoes and dress?"
+      },
+      {
+        "role": "assistant",
+        "content": "Let me think through this step by step:\n\nStep 1: First, I need to determine how much Sara spent on shoes and dress. She spent $50 on shoes and $200 on a dress, so she spent $50 + $200 = $250 in total.\nStep 2: Then, I need to calculate how much Rachel should budget to spend twice as much as Sara. Twice the amount Sara spent is 2 * $250 = $500.\n\nSo the answer is: 500"
+      }
+    ]
+  ]
+}
