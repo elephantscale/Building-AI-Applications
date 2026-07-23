@@ -1,7 +1,8 @@
 anthropic
 langchain
 langchain-anthropic
-langchain-openai
+langchain-huggingface
+sentence-transformers
 langchain-community
 docarray
 wikipedia

@@ -1,5 +1,20 @@
 # Migration Notes — OpenAI → Anthropic Claude
 
+## Update — embeddings moved to a local on-device model
+
+Embeddings in notebooks 04 (Q&A) and 05 (Evaluation) were switched from OpenAI
+(`OpenAIEmbeddings`) to a **local HuggingFace embedder**
+(`HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")`
+from `langchain-huggingface`). This drops the OpenAI dependency entirely:
+`langchain-openai` was removed from `requirements.txt` (replaced by
+`langchain-huggingface` + `sentence-transformers`) and `OPENAI_API_KEY` was
+removed from `.env.example`. The vector index (`VectorstoreIndexCreator` /
+`DocArrayInMemorySearch`) and all other code are unchanged. **The lab now needs
+only `ANTHROPIC_API_KEY`.** The "KEPT OpenAIEmbeddings" notes below are
+historical and no longer apply.
+
+---
+
 This lab was migrated from OpenAI to Anthropic Claude. Summary of what changed.
 
 ## Global changes

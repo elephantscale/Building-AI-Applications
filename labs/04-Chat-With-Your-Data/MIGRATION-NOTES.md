@@ -1,5 +1,21 @@
 # Migration Notes — OpenAI → Anthropic Claude
 
+## Update — embeddings moved to a local on-device model
+
+Embeddings were switched from OpenAI (`OpenAIEmbeddings`,
+`text-embedding-3-small`) to a **local HuggingFace embedder**
+(`HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")`
+from `langchain-huggingface`) in Lessons 3, 4, 5, and 6. This drops the OpenAI
+dependency entirely: the `import openai` / `openai.api_key = ...` bootstrap cells
+were removed, `langchain-openai` and `openai` were removed from
+`requirements.txt` (replaced by `langchain-huggingface` + `sentence-transformers`),
+and `OPENAI_API_KEY` was removed from `.env.example`. The vector stores (Chroma,
+`DocArrayInMemorySearch`) and all other code are unchanged. **The lab now needs
+only `ANTHROPIC_API_KEY`.** The "What stayed on OpenAI" section below is
+historical and no longer applies.
+
+---
+
 Source: `building-ai-applications-labs/Chat-with-your-own-data-Langchain/`
 This lab is a RAG pipeline (load → split → embed to Chroma → RetrievalQA →
 ConversationalRetrievalChain with memory). Only the **generation LLM** was

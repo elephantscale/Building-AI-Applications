@@ -6,9 +6,9 @@ langchain-community>=0.3.26,<0.4
 anthropic>=0.40
 langchain-anthropic>=0.3,<1.0
 
-# --- OpenAI (embeddings only: text-embedding-3-small) ---
-langchain-openai>=0.2,<1.0
-openai>=1.0
+# --- Local on-device embeddings (sentence-transformers/all-MiniLM-L6-v2) ---
+langchain-huggingface
+sentence-transformers
 
 # --- Loaders + parsing deps ---
 pypdf>=4

@@ -5,9 +5,10 @@ Retrieval-Augmented Generation (RAG) pipeline over your own documents:
 load → split → embed into Chroma → retrieve → answer with a chat model,
 then add memory for a multi-turn conversational chatbot.
 
-This lab uses **Claude (Anthropic)** as the generation model and **OpenAI
-embeddings** for the vector store, so it requires **both** an
-`ANTHROPIC_API_KEY` and an `OPENAI_API_KEY`.
+This lab uses **Claude (Anthropic)** as the generation model and a **local,
+on-device embedder** (`sentence-transformers/all-MiniLM-L6-v2` via
+`langchain-huggingface`) for the vector store. Embeddings run on your machine
+with no API key, so the lab requires **only** an `ANTHROPIC_API_KEY`.
 
 > Adapted from the DeepLearning.AI short course
 > [*LangChain: Chat with Your Data*](https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/),
@@ -19,10 +20,10 @@ embeddings** for the vector store, so it requires **both** an
 | --- | --- | --- |
 | `Lesson1_Document_Loading.ipynb` | Loading PDFs, YouTube transcripts, URLs, Notion | — (loaders only) |
 | `Lesson2_Document_Splitting.ipynb` | Text/character/token splitters | — (splitters only) |
-| `Lesson3_VectorStores_And_Embeddings.ipynb` | Embeddings + Chroma vector store | OpenAI embeddings |
-| `Lesson4_Retrieval.ipynb` | Similarity / MMR / self-query retrieval | OpenAI embeddings |
-| `Lesson5_Question_Answer.ipynb` | `RetrievalQA` chain | **Claude** (gen) + OpenAI (embeddings) |
-| `Lesson6_Chat.ipynb` | `ConversationalRetrievalChain` + memory + Panel chatbot | **Claude** (gen) + OpenAI (embeddings) |
+| `Lesson3_VectorStores_And_Embeddings.ipynb` | Embeddings + Chroma vector store | local embeddings |
+| `Lesson4_Retrieval.ipynb` | Similarity / MMR / self-query retrieval | local embeddings |
+| `Lesson5_Question_Answer.ipynb` | `RetrievalQA` chain | **Claude** (gen) + local embeddings |
+| `Lesson6_Chat.ipynb` | `ConversationalRetrievalChain` + memory + Panel chatbot | **Claude** (gen) + local embeddings |
 
 ## Setup
 
@@ -34,7 +35,7 @@ embeddings** for the vector store, so it requires **both** an
 3. Copy `.env.example` to `.env` and fill in your keys:
    ```bash
    cp .env.example .env
-   # edit .env — set ANTHROPIC_API_KEY and OPENAI_API_KEY
+   # edit .env — set ANTHROPIC_API_KEY (no OpenAI key needed)
    ```
 4. Launch Jupyter and run the notebooks in order:
    ```bash
@@ -55,8 +56,11 @@ shipped with this lab). Run Lesson 3 before Lessons 5–6 so the store exists.
   Haiku 4.5, but **returns a 400 error on Opus 4.7+ and Sonnet 5**, so leaving
   it off keeps the lab working across every current Claude model.
 
-## Why two providers?
+## Embeddings run on-device
 
-Claude has no first-party embeddings endpoint, so the vector store keeps using
-OpenAI's `text-embedding-3-small` (`OpenAIEmbeddings`). Only the *generation*
-step was moved to Claude. That is why both API keys are required.
+Claude has no first-party embeddings endpoint. Rather than depend on a second
+provider, the vector store uses a **local** HuggingFace embedder
+(`sentence-transformers/all-MiniLM-L6-v2` via `HuggingFaceEmbeddings`). The model
+downloads once from the HuggingFace Hub and then runs on your machine — no API
+key and no per-call cost for embeddings. Only the *generation* step calls a
+hosted API (Claude), so `ANTHROPIC_API_KEY` is the only key required.

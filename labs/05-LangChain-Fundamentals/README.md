@@ -1,8 +1,9 @@
 # 05 — LangChain Fundamentals (with Anthropic Claude)
 
 Hands-on LangChain lab migrated from OpenAI to **Anthropic Claude**. The
-generation model is Claude everywhere; notebooks 04 and 05 additionally use
-OpenAI embeddings for their vector index (see the note below).
+generation model is Claude everywhere; notebooks 04 and 05 build their vector
+index with a **local, on-device embedder** (see the note below). No OpenAI key
+is needed.
 
 ## Notebooks
 
@@ -28,11 +29,12 @@ cp .env.example .env
 
 ### API keys
 
-- **`ANTHROPIC_API_KEY`** — required for all notebooks (the Claude LLM).
-- **`OPENAI_API_KEY`** — required **only** for notebooks 04 and 05, which keep
-  OpenAI embeddings (`OpenAIEmbeddings`) for the vector index. Only the LLM was
-  moved to Claude; the embeddings still run on OpenAI, so those two labs need
-  **both** keys.
+- **`ANTHROPIC_API_KEY`** — required for all notebooks (the Claude LLM). This is
+  the **only** key needed.
+- **Embeddings run on-device.** Notebooks 04 and 05 build their vector index with
+  a local HuggingFace embedder (`sentence-transformers/all-MiniLM-L6-v2` via
+  `HuggingFaceEmbeddings`). The model downloads once from the HuggingFace Hub and
+  then runs locally — no OpenAI key and no per-call embedding cost.
 
 ## Model and temperature
 
