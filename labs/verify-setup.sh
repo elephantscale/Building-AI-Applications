@@ -92,7 +92,7 @@ head "4. API keys (instructor-provided; checks env and any labs/*/.env)"
 # aggregate keys visible either in the environment or in a lab .env file
 env_or_dotenv() { # KEY
   [ -n "${!1:-}" ] && { echo set; return; }
-  grep -rhoE "^\s*$1\s*=\s*\S+" "$LABS_DIR"/*/.env 2>/dev/null | grep -qvE "=\s*(sk-ant-xxx|YOUR|xxxx|\s*$)" && echo dotenv || echo unset
+  grep -rhoE "^\s*$1\s*=\s*\S+" "$LABS_DIR"/.env "$LABS_DIR"/*/.env 2>/dev/null | grep -qvE "=\s*(sk-ant-xxx|YOUR|xxxx|\s*$)" && echo dotenv || echo unset
 }
 for spec in "ANTHROPIC_API_KEY:required:all labs" \
             "OPENAI_API_KEY:optional:RAG labs 04/05 embeddings" \

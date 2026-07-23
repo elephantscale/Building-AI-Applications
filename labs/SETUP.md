@@ -22,6 +22,27 @@ So a plain Ubuntu VM with Python and internet access is all that's required.
 > For Protech: an Ubuntu VM with **standard defaults + Python 3.10+ and internet
 > egress** is sufficient. **8 GB** is enough (Docker's 12 GB tier is not needed).
 
+## API keys — ONE shared file for all labs
+
+Copy the shared example to a real `.env` **in the `labs/` directory** and fill it in
+**once**. Every lab picks it up automatically — each notebook's `load_dotenv()` walks up
+from its folder to `labs/.env`:
+
+```bash
+cp labs/.env.example labs/.env      # then edit labs/.env and add your keys
+```
+
+| Key | Needed for |
+|-----|-----------|
+| `ANTHROPIC_API_KEY` | **All labs** (the model) — the only key most labs need |
+| `COHERE_API_KEY` + Weaviate | Lab 03 (Cohere embeddings + rerank; Weaviate sandbox) |
+| `TAVILY_API_KEY` | Lab 07 (agent web research) |
+| `OPENAI_API_KEY` | Lab 07 **only** — the optional DALL·E image step (not embeddings) |
+| AWS credentials | Day-4 labs 09 & 10 (Claude on Amazon Bedrock; via `aws configure`) |
+
+See `labs/KEYS.md` for where to get each. Keys are **not** provided by Protech — the
+instructor supplies them in class.
+
 ## Per-Lab Python Environment
 
 Each lab folder has its own `requirements.txt`. From a lab folder:
@@ -31,21 +52,8 @@ python3 -m venv myenv
 source myenv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
-cp .env.example .env      # then fill in the API keys
-jupyter lab               # or: jupyter notebook
+jupyter lab               # or: jupyter notebook  (keys come from labs/.env)
 ```
-
-## API Keys (provided by the instructor, set in each lab's `.env`)
-
-| Key | Needed for |
-|-----|-----------|
-| `ANTHROPIC_API_KEY` | **All labs** (the model) |
-| `OPENAI_API_KEY` | RAG labs 04 & 05 (embeddings only) |
-| `COHERE_API_KEY` | Lab 03 (Cohere embeddings + rerank) |
-| `TAVILY_API_KEY` | Lab 07 (agent web research) |
-| AWS credentials | Day-4 labs 09 & 10 (Claude on Amazon Bedrock) |
-
-Keys are **not** something Protech provides — the instructor supplies them in class.
 
 ## Verify the VM
 

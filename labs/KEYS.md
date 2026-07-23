@@ -6,8 +6,9 @@ each machine.
 
 ## Deployment
 
-1. In each lab folder: `cp .env.example .env`, then paste the keys into `.env`.
-   (Or set them once as environment variables in the shell profile on each machine.)
+1. **One file for the whole course:** `cp labs/.env.example labs/.env`, then paste your keys
+   into `labs/.env`. Every lab reads from it automatically (each notebook's `load_dotenv()`
+   walks up to it) — you fill it in once per machine. (Or set the keys as shell env vars.)
 2. Verify each machine: `./labs/verify-setup.sh --live` (exit 0 = ready).
 
 ## The keys
