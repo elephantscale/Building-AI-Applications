@@ -22,10 +22,11 @@ is needed.
 python -m venv myenv
 source myenv/bin/activate
 pip install -r requirements.txt
-
-cp .env.example .env
-# edit .env and fill in your keys
 ```
+
+Keys come from the shared `labs/.env` (copy `labs/.env.example` → `labs/.env`
+once, in the repo's `labs/` directory). No per-lab `.env` needed — every lab
+reads it automatically.
 
 ### API keys
 

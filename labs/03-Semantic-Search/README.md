@@ -32,7 +32,9 @@ equivalent. Only the final **answer-generation** step was migrated to
    ```bash
    pip install -r requirements.txt
    ```
-3. Copy `.env.example` to `.env` and fill in your keys:
+3. Keys come from the shared `labs/.env` (copy `labs/.env.example` → `labs/.env`
+   once, in the repo's `labs/` directory). No per-lab `.env` needed — every lab
+   reads it automatically. The keys this lab uses:
    - `ANTHROPIC_API_KEY` — for the Claude answer-generation step
    - `COHERE_API_KEY` — for embeddings and rerank
    - `WEAVIATE_API_URL` / `WEAVIATE_API_KEY` — for vector search

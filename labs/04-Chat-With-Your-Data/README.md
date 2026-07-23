@@ -32,11 +32,10 @@ with no API key, so the lab requires **only** an `ANTHROPIC_API_KEY`.
    ```bash
    pip install -r requirements.txt
    ```
-3. Copy `.env.example` to `.env` and fill in your keys:
-   ```bash
-   cp .env.example .env
-   # edit .env — set ANTHROPIC_API_KEY (no OpenAI key needed)
-   ```
+3. Keys come from the shared `labs/.env` (copy `labs/.env.example` → `labs/.env`
+   once, in the repo's `labs/` directory). No per-lab `.env` needed — every lab
+   reads it automatically. This lab needs only `ANTHROPIC_API_KEY` (no OpenAI key —
+   embeddings run on a local on-device embedder).
 4. Launch Jupyter and run the notebooks in order:
    ```bash
    jupyter notebook

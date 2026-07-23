@@ -33,9 +33,11 @@ python -m venv myenv
 source myenv/bin/activate      # Windows: myenv\Scripts\activate
 pip install -r requirements.txt
 
-cp .env.example .env           # then edit .env and add your ANTHROPIC_API_KEY
 jupyter lab                    # or: jupyter notebook
 ```
+
+> **Keys** come from the shared `labs/.env` (copy `labs/.env.example` → `labs/.env`
+> once, in the repo's `labs/` directory). No per-lab `.env` needed — every lab reads it automatically.
 
 **Single key.** The lab needs only an `ANTHROPIC_API_KEY`. The vector store is
 **Chroma** with its built-in default embedding function (ONNX all-MiniLM), which

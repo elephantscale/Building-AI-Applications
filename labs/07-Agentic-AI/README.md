@@ -21,17 +21,15 @@ This edition has been **migrated to Anthropic Claude**. All LLM text, reasoning,
    pip install -r requirements.txt
    ```
 
-2. **Configure environment variables.** Copy `.env.example` to `.env` and fill in your keys:
-
-   ```bash
-   cp .env.example .env
-   ```
+2. **Configure environment variables.** Keys come from the shared `labs/.env`
+   (copy `labs/.env.example` → `labs/.env` once, in the repo's `labs/` directory).
+   No per-lab `.env` needed — every lab reads it automatically. The keys this lab uses:
 
    | Variable | Required for | Notes |
    |----------|--------------|-------|
    | `ANTHROPIC_API_KEY` | All labs | Claude — every LLM call. |
    | `TAVILY_API_KEY` | M4, M5 | Tavily web search. |
-   | `OPENAI_API_KEY` | M5 only | DALL·E 3 image generation (Claude cannot generate images). |
+   | `OPENAI_API_KEY` | M5 only — optional | DALL·E 3 image generation only (Claude cannot generate images); not used for embeddings. |
    | `LLM_MODEL` | Optional | Overrides the Claude model everywhere. |
 
 3. **Launch Jupyter** and open any lab notebook:
